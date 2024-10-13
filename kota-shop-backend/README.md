@@ -4,7 +4,10 @@
 npm start
 ```
 
-## Postgresql Commands for Table
+# Postgresql Commands for Table
+
+
+## Users table
 
 ```SQL
 CREATE TABLE users (
@@ -14,7 +17,7 @@ CREATE TABLE users (
 );
 ```
 
-# Invetory table
+## Invetory table
 ```SQL
 CREATE TABLE food (id SERIAL PRIMARY KEY, name TEXT NOT NULL, stock INTEGER NOT NULL,price INTEGER NOT NULl, image TEXT NOT NULL, user_email TEXT NOT NULL,FOREIGN KEY (user_email) REFERENCES users(email) );
 ```
