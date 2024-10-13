@@ -5,7 +5,6 @@ Follow these instructions to get the application up and running locally.
 1. **Clone the repository:**
 ```bash
    git clone https://github.com/givenmphiwe/lorTech.git
-   cd kota-shop-inventory
 ```
 
 # The frontend
@@ -13,17 +12,17 @@ Follow these instructions to get the application up and running locally.
    cd kota-shop-frontend
    npm install
 ```
-# To run
+# To start the localhost
 ```bash
 npm run dev
 ```
 
-# The frontend
+# The server/ backend
 ```bash
    cd kota-shop-backend
    npm install
 ```
-# To run 
+# To run server local
 ```bash
 npm start
 ```
